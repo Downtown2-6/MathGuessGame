@@ -1,16 +1,11 @@
 # Math Guessing Game 
 
-### This is not the full implementation 
+### Pick a number between 1 and 100
+
+1. Player types number in the field and submits their answer
+2. The interface gives player a hint
+3. Player has 8 attempts to pick the right number 
 
 
-~~1. Still need to implement five guess maximum~~
-~~2. Still need to implement reset button~~ 
-~~3. Hints have been implemented but need work~~ 
-
-1. CSS styling is required 
-2. Clean up script.js (variables, less verbose)
-3. clean up index.html (change tags: button, form etc.)
-
-
-- functionally this product works 
+- Pressing reset generates a new random number. 
 
