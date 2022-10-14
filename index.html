@@ -7,22 +7,22 @@
     <link rel="stylesheet" href="style.css">
     <title>Guess The Number</title>
 </head>
-<body>
-    <header>
+<body id="container">
+<card id = "card">
+    <header id="header">
         <h1>Guess The Number!</h1>
         <h2>Find the number from 1-100.</h2>
         <h2 id = "subText">See if you can guess it!</h2>
     </header>
-    <div id = "form">
+    <form id = "form">
         <label for="guessField">Enter a guess: </label>
         <input type = "text" id = "guessField" class = "guessField">
         <input type = "submit" value = "submit guess"
             class = "guessSubmit" id = "submitGuess">
         <input type="reset" id = "resetButton">
-    </div>
-
-
-
+    </form>
+</card>
+<img id = "mario" src="https://s3.amazonaws.com/colorslive/jpg_512x512/397499-KAoZ9kIyau_jkNn9.jpg">
     <script src="script.js"></script>
 </body>
 </html>

@@ -10,11 +10,11 @@ document.getElementById("submitGuess").onclick = function(){
     if (x == y){
        document.getElementById('subText').innerHTML = "Congrats! You got it in " + guessCounter + " guesses ";
        document.getElementById('resetButton').disabled = false;
-    }else if( x > y && guessCounter < 5){
+    }else if( x > y && guessCounter < 8){
         guessCounter++;
         document.getElementById('subText').innerHTML = "Try a smaller number!";
         document.getElementById('resetButton').disabled = true;
-    }else if( x < y && guessCounter < 5){
+    }else if( x < y && guessCounter < 8){
         guessCounter++;
         document.getElementById('subText').innerHTML = "Try a larger number!";
         document.getElementById('resetButton').disabled = true;
@@ -37,6 +37,6 @@ document.getElementById('resetButton').onclick = function(){
 
 //reset button will reset guess count, 
 //generate new number, 
-//set submit button to true, 
+//set submit button to , 
 //reset header text 
 
