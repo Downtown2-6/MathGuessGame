@@ -1,4 +1,4 @@
-#container{
+body{
     display: flex; 
     flex-direction:column;
     justify-content: center;
@@ -9,7 +9,7 @@
     height: 20%;
     text-align: center;
     width: 400px;
-    border: 2px solid rgb(80, 80, 80);
+    border: 3px solid rgb(80, 80, 80);
     border-radius: 4px;
     background-color: bisque;
     margin-top: 75px;
