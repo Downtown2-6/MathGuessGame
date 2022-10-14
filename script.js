@@ -3,7 +3,7 @@ let y = Math.floor(Math.random() * 100 + 1);
 //let y = 55;   //<-- for testing purposes 
 let guessCounter = 1;
 
-// const input = document.getElementById('guessField');
+const input = document.getElementById('guessField');
 document.getElementById("submitGuess").onclick = function () {
     const x = document.getElementById("guessField").value;
     console.log("checkpint");
@@ -28,7 +28,7 @@ document.getElementById("submitGuess").onclick = function () {
 }
 document.getElementById('resetButton').onclick = function () {
     document.getElementById('subText').innerHTML = "See if you can guess it!";
-    // input.value = ' ';
+    input.value = ' ';
     document.getElementById('submitGuess').disabled = false;
     y = Math.floor(Math.random() * 100 + 1);
     guessCounter = 1;
